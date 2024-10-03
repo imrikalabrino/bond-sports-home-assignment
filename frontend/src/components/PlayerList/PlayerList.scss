@@ -1,0 +1,20 @@
+.player-list {
+  flex-grow: 1;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 0 0 0 20px;
+  padding: 16px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+
+  .player-cards {
+    overflow-y: auto;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+}
